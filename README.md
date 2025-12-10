@@ -9,7 +9,7 @@ The web server on the ESP-32 has two endpoints: one takes a ten-digit hex string
 
 I want to use the project to display some stock prices as they change. Since there's just seven segments, it's a bit crude, but something like "183.78d 1.19" means that the issue I'm tracking is at $183.78 per share, down (for "d") $1.19 per share since the last close.
 
-Right now, all the smarts are in a Python scripts that pokes at those endpoints and the ESP-32 just scans the multiplexed displays to show the last thing it was told. Eventually, the device be standalone, though that comes with a few problems that I'll need to sort out.
+Right now, all the smarts are in a Python scripts that run on a desktop computer. That script pokes at those endpoints and the ESP-32 just scans the multiplexed displays to show the last thing it was told. Eventually, the device could be standalone, though that comes with a few problems that I'll need to sort out.
 
 Things to do:
 
@@ -21,7 +21,6 @@ Things to do:
 
 And probably a few more things. But I'm also thinking about 16-segment display with 2 rows of 20 characters for a bit more fidelity ...
 
-
 This repo contains these directories:
 
 * `assets`: some pictures for the readme
@@ -29,4 +28,13 @@ This repo contains these directories:
 * `TenDigitsIDF`: Visual Studio Code project for the ESP-32 IDF to implement the web server and multiplexing
 * `TenDigitQuoter`: A Python project (for PyCharm) that shows quotes for a stock from the Yahoo! Finance API
 
+Here are some pictures:
+
+![Front view of populated PCB]<img src="assets/PopulatedPCBObverse.png?raw=true)
+
+![Reverse view of bare PCB](assets/BarePCBReverse.png?raw=true)
+
+![Quote being displayed](assets/DisplayQuote.png?raw=true)
+
+![PCB in KiCAD designer]<img src="assets/PCBDesigner.png?raw=true)
 
