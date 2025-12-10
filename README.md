@@ -29,10 +29,10 @@ This repo contains these directories:
 
 Here are some pictures:
 
-![Front view of populated PCB]<img src="assets/PopulatedPCBObverse.png?raw=true")
+![Front view of populated PCB](assets/PopulatedPCBObverse.png?raw=true)
 
-![Reverse view of bare PCB](assets/BarePCBReverse.png?raw=true")
+![Reverse view of bare PCB](assets/BarePCBReverse.png?raw=true)
 
-![Quote being displayed](assets/DisplayQuote.png?raw=true")
+![Quote being displayed](assets/DisplayQuote.png?raw=true)
 
-![PCB in KiCAD designer]<img src="assets/PCBDesigner.png?raw=true")
+![PCB in KiCAD designer](assets/PCBDesigner.png?raw=true)
