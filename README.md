@@ -1,4 +1,3 @@
-
 Here is a project I made in the summer of 2025.
 
 On a driving trip from Chicago back home to Seattle, I discovered [American Science and Surplus](https://sciplus.com/). Their store in Geneva, Illinois has lots of fun stuff, including some two-digit LED displays that I thought I could use to make a neat display.
@@ -32,9 +31,8 @@ Here are some pictures:
 
 ![Front view of populated PCB]<img src="assets/PopulatedPCBObverse.png?raw=true)
 
-![Reverse view of bare PCB](assets/BarePCBReverse.png?raw=true)
+![Reverse view of bare PCB](assets/BarePCBReverse.png?raw=true")
 
-![Quote being displayed](assets/DisplayQuote.png?raw=true)
+![Quote being displayed](assets/DisplayQuote.png?raw=true")
 
-![PCB in KiCAD designer]<img src="assets/PCBDesigner.png?raw=true)
-
+![PCB in KiCAD designer]<img src="assets/PCBDesigner.png?raw=true")
