@@ -1,0 +1,36 @@
+# PyCharm IDE files
+.idea/
+*.iml
+*.iws
+
+# Byte-compiled Python files
+__pycache__/
+*.pyc
+
+# Python-specific files
+*.pyo
+*.pyd
+.Python
+.env
+env/
+.venv/
+venv/
+bin/
+include/
+lib/
+local/
+*.egg-info/
+.coverage
+.tox/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Other common ignored files
+dist/
+build/
+*.log
+*.sqlite3
+
+
