@@ -1,0 +1,71 @@
+# ====================================
+# KiCad 9 — Project Files to Ignore
+# ====================================
+
+# Build & Export Artifacts
+*.step
+*.stp
+*.wrl
+*.obj
+*.3mf
+*.glb
+*.gltf
+*.zip
+
+# Plot outputs
+*.pdf
+*.svg
+*.ps
+*.eps
+*.dxf
+*.gbr
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gm*
+*.drl
+*.pos
+
+# PCB fabrication and assembly exports
+fabrication/
+assembly/
+manufacturing/
+
+# Simulation output
+*.raw
+*.cir.out
+sim/
+
+# Backup & Recovery
+*-backups/
+*.kicad_prl      # project local config
+*.kicad_pro-bak
+*_autosave.kicad_sch
+*_autosave.kicad_pcb
+
+# Cache files
+.fp-info-cache
+.sym-lib-table-bak
+.pretty/.cache
+**/*.cache
+*.kicad_dru~     # rule backups
+
+# User-specific files
+*.user
+*.tmp
+*.bak
+*.swp
+*.swm
+
+# 3D viewer cache
+3dviewer/
+
+# ==================================================
+# KiCad 8 / 7 / legacy remnants (safe to exclude)
+# ==================================================
+*.xml
+*-cache.lib
+*-rescue.lib
+fp-info-cache
+

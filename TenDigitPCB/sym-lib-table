@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Displays")(type "KiCad")(uri "C:/Projects/TenDigitPCB/TOD-5621.kicad_sym")(options "")(descr ""))
+)

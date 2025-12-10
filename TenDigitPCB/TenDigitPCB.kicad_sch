@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "63db0e05-7bc4-4f4a-86fa-4154264c011f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 60.96 71.12)
+		(size 105.41 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e5f410a-dd17-475f-9c26-1b0a08051216")
+		(property "Sheetname" "Power"
+			(at 60.96 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 60.96 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 76.2)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c02f6fa8-ed21-47ec-beb9-73792edc77a3")
+		(property "Sheetname" "Processor"
+			(at 227.33 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Processor.kicad_sch"
+			(at 227.33 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 76.2)
+		(size 19.05 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce846bb1-174d-4113-9d63-66ffb69da8ba")
+		(property "Sheetname" "Digit Drivers"
+			(at 200.66 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Drivers.kicad_sch"
+			(at 200.66 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 40.64)
+		(size 17.78 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d107c9ef-1c5c-4f66-a3f2-74b8c8c78102")
+		(property "Sheetname" "Displays"
+			(at 227.33 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Displays.kicad_sch"
+			(at 227.33 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

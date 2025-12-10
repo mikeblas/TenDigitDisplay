@@ -1,0 +1,5385 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1621757c-4dc6-410f-93cc-2f232f3e30e2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "4xxx:4028"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4028"
+				(at -7.62 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4028bms.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Decoder 4 to 10 lines"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CMOS DECOD DECOD10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?16*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4028_1_0"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "S0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "S5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "S6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "S7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "S8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -12.7 180)
+					(length 5.08)
+					(name "S9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4028_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4xxx:4069"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4069"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hex inverter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CMOS NOT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4069_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_7_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:2N3906"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3906"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3906_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N3906_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 161.29 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d53ed18-dbd9-42fa-8520-c121af8521d1")
+	)
+	(junction
+		(at 161.29 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "124a5624-7379-4916-82e2-25ca347cc56d")
+	)
+	(junction
+		(at 161.29 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26c48d36-b33b-4e3f-8703-3be21cc1c422")
+	)
+	(junction
+		(at 161.29 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f26a865-0494-4b4d-9f98-ce18732f9518")
+	)
+	(junction
+		(at 161.29 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "411941f0-48d3-4a4e-af4b-b16f91b58cc8")
+	)
+	(junction
+		(at 161.29 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58cf348a-6d29-4408-a70e-85bcff716e30")
+	)
+	(junction
+		(at 161.29 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82891a5c-0547-45ea-9d2b-30db69b524d9")
+	)
+	(junction
+		(at 161.29 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93c3a066-dc78-4264-b340-105df1fdc21d")
+	)
+	(junction
+		(at 161.29 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fee8da6-18ab-47c7-8225-89fd83a58f86")
+	)
+	(wire
+		(pts
+			(xy 146.05 111.76) (xy 171.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008f10ac-0b72-4e28-b4e7-0d5ad6ef32a3")
+	)
+	(wire
+		(pts
+			(xy 146.05 161.29) (xy 161.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e836f3-2bfe-4f48-922c-0d49e70b554b")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.66) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b87afa7-5a79-4f26-be16-673afa65c08b")
+	)
+	(wire
+		(pts
+			(xy 161.29 59.69) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a6fbee-33b6-4d95-aa4c-0349989e4637")
+	)
+	(wire
+		(pts
+			(xy 73.66 41.91) (xy 101.6 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120b364d-6d87-47a5-9ac0-8825942fa2e4")
+	)
+	(wire
+		(pts
+			(xy 41.91 44.45) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba4a099-dfad-45c3-8a11-11e9dbfd9ec8")
+	)
+	(wire
+		(pts
+			(xy 73.66 49.53) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22af097a-471d-4414-bb3b-a19d51db376a")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ff2cf9-26d3-4574-98aa-f35fea4346ea")
+	)
+	(wire
+		(pts
+			(xy 88.9 106.68) (xy 111.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2320694c-d06d-4980-a205-713a472e0ec2")
+	)
+	(wire
+		(pts
+			(xy 41.91 49.53) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23594003-8f1b-4f9a-9ec3-276e70244222")
+	)
+	(wire
+		(pts
+			(xy 81.28 54.61) (xy 81.28 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e330ca-c4e6-41a5-8093-bac5f9478884")
+	)
+	(wire
+		(pts
+			(xy 161.29 146.05) (xy 161.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292d5b65-361e-41fe-9dc2-365d4a7b584b")
+	)
+	(wire
+		(pts
+			(xy 85.09 120.65) (xy 111.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb81714-744e-4a52-8a2e-c890232f78cf")
+	)
+	(wire
+		(pts
+			(xy 77.47 151.13) (xy 111.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c72918f-7c38-431d-85cb-71f25978c64c")
+	)
+	(wire
+		(pts
+			(xy 96.52 44.45) (xy 96.52 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1d87e3-517d-419d-8499-18668e5182b4")
+	)
+	(wire
+		(pts
+			(xy 101.6 64.77) (xy 111.76 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b5db11-cdd8-4f50-b0e7-cf60dcd64642")
+	)
+	(wire
+		(pts
+			(xy 135.89 135.89) (xy 138.43 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e02ad45-7a49-4dc3-a19c-a1f326a6c8a4")
+	)
+	(wire
+		(pts
+			(xy 161.29 130.81) (xy 161.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4395dbfa-2259-4ee6-8b12-30db946b9adf")
+	)
+	(wire
+		(pts
+			(xy 161.29 115.57) (xy 161.29 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dba12a-9665-4d12-b073-0329dfd99d7f")
+	)
+	(wire
+		(pts
+			(xy 73.66 46.99) (xy 92.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446ce002-aab6-4940-9890-7233ce92a415")
+	)
+	(wire
+		(pts
+			(xy 135.89 78.74) (xy 138.43 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4def99eb-475b-46f7-bbf4-3f8d2be06839")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5183618c-5c77-4ded-8e50-b17bcc0fcfe7")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521524d0-ee90-45e4-b63e-f26df33b8231")
+	)
+	(wire
+		(pts
+			(xy 81.28 135.89) (xy 111.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522ba074-b5c3-42b7-99fd-5b3523b3fdcc")
+	)
+	(wire
+		(pts
+			(xy 106.68 39.37) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553179d7-23f8-4836-affe-c8ae104fe04f")
+	)
+	(wire
+		(pts
+			(xy 146.05 125.73) (xy 171.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56292837-ac1a-4dd1-a973-40443041fc71")
+	)
+	(wire
+		(pts
+			(xy 73.66 59.69) (xy 73.66 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e48cd3-4213-4665-be6c-70746dfec7a0")
+	)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 128.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e22f2d-025b-4a42-9b6b-6074d5288321")
+	)
+	(wire
+		(pts
+			(xy 146.05 55.88) (xy 171.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f8b474-a8df-4624-930a-8d5565b059d5")
+	)
+	(wire
+		(pts
+			(xy 73.66 36.83) (xy 111.76 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664fca19-ccec-4e2b-a56f-c9ce09fbab50")
+	)
+	(wire
+		(pts
+			(xy 161.29 45.72) (xy 161.29 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68602996-807b-4fc8-9ca8-4a93d216df52")
+	)
+	(wire
+		(pts
+			(xy 128.27 151.13) (xy 127 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7d8368-f395-42e2-ab7a-75c7a8d7318d")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4addb7-39a3-4b55-9ace-764941406e71")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 81.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700dfba0-2dfd-4b59-8bc1-bde6bedbf201")
+	)
+	(wire
+		(pts
+			(xy 146.05 130.81) (xy 161.29 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c3edfd-bd6f-4310-a443-f581052cfc0b")
+	)
+	(wire
+		(pts
+			(xy 85.09 120.65) (xy 85.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71712aa5-2f64-43fa-b9f2-b81fb0c19f16")
+	)
+	(wire
+		(pts
+			(xy 146.05 45.72) (xy 161.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735f76c3-0751-48b1-9759-4d37faca9c86")
+	)
+	(wire
+		(pts
+			(xy 146.05 146.05) (xy 161.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7530860a-e842-45f1-9b03-43f8be13a81c")
+	)
+	(wire
+		(pts
+			(xy 85.09 52.07) (xy 73.66 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7854a20e-c916-4964-bc63-8a0c327b0f03")
+	)
+	(wire
+		(pts
+			(xy 135.89 64.77) (xy 138.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1e3c6c-02a1-4a2c-882a-64263361ee71")
+	)
+	(wire
+		(pts
+			(xy 73.66 39.37) (xy 106.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d133170-a50c-467e-a18b-c5534e0ceb2c")
+	)
+	(wire
+		(pts
+			(xy 135.89 120.65) (xy 138.43 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e958567-0e11-422f-9565-e4c5054824d8")
+	)
+	(wire
+		(pts
+			(xy 146.05 140.97) (xy 171.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecbe059-4729-45c0-bafb-3122021e819e")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801f5dc0-d747-4031-8eb8-a2e5b18023c3")
+	)
+	(wire
+		(pts
+			(xy 73.66 57.15) (xy 77.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840a86fe-ff4e-4d85-8697-53e8f7395372")
+	)
+	(wire
+		(pts
+			(xy 128.27 120.65) (xy 127 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846bada0-003f-4ad6-8cb0-4d554f346b9c")
+	)
+	(wire
+		(pts
+			(xy 146.05 156.21) (xy 171.45 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cf9923-6a22-41bc-a168-a1e737de42df")
+	)
+	(wire
+		(pts
+			(xy 92.71 46.99) (xy 92.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88978d99-beb8-426e-bf90-0d7fd2f87492")
+	)
+	(wire
+		(pts
+			(xy 146.05 41.91) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8900f231-70e5-4f36-bd8f-2c8f951d1ae6")
+	)
+	(wire
+		(pts
+			(xy 41.91 46.99) (xy 48.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8f4d60-28ab-49f6-be1f-63c11b96ccce")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 77.47 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c32d1a2-8b9a-471b-8298-5bb952639930")
+	)
+	(wire
+		(pts
+			(xy 135.89 36.83) (xy 138.43 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9087d37a-5ed4-468b-bf9c-d2ad5ffe4618")
+	)
+	(wire
+		(pts
+			(xy 146.05 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9370b4fb-734f-45d2-8706-8bc5c31a8536")
+	)
+	(wire
+		(pts
+			(xy 146.05 31.75) (xy 161.29 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4dff37-05ec-4ac9-bd6e-8424fa651e92")
+	)
+	(wire
+		(pts
+			(xy 161.29 29.21) (xy 161.29 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c38b2b3-5817-450f-9827-6b78e87fa805")
+	)
+	(wire
+		(pts
+			(xy 161.29 101.6) (xy 161.29 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f920c15-12e2-49d9-8565-2ec60040c6d7")
+	)
+	(wire
+		(pts
+			(xy 146.05 69.85) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a662e209-3944-4c48-b51a-4a0c76a67803")
+	)
+	(wire
+		(pts
+			(xy 127 50.8) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea6ef49-c8b2-4908-b23c-5a15d55ce626")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 111.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec5c05c-a9f2-447f-bb94-305c708fb8e0")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ece55f-670b-49a2-91b0-2f3054def7c6")
+	)
+	(wire
+		(pts
+			(xy 127 64.77) (xy 128.27 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b515870d-bc09-46e0-b122-f6e4b16b0dd0")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 111.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a7cf2a-11c9-4ff2-83be-8cb2c4bca943")
+	)
+	(wire
+		(pts
+			(xy 146.05 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c9d8c6-5bc6-4d83-bd68-52b293a736fd")
+	)
+	(wire
+		(pts
+			(xy 135.89 166.37) (xy 138.43 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc8d364-c32e-4d1d-aa16-859b05572884")
+	)
+	(wire
+		(pts
+			(xy 135.89 151.13) (xy 138.43 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be20f1d4-58cb-4ded-9e67-be8bddff994d")
+	)
+	(wire
+		(pts
+			(xy 161.29 31.75) (xy 161.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec1e35f-e904-4f82-b071-aa63f128bd73")
+	)
+	(wire
+		(pts
+			(xy 146.05 97.79) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c508ff74-5e3e-4968-a3db-bd0016c242b1")
+	)
+	(wire
+		(pts
+			(xy 146.05 83.82) (xy 171.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4efc6ee-8c76-4a38-a216-98a0d209ff40")
+	)
+	(wire
+		(pts
+			(xy 41.91 41.91) (xy 48.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d4d360-8144-4a59-88f5-a08eba14c5c5")
+	)
+	(wire
+		(pts
+			(xy 101.6 41.91) (xy 101.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7da0976-4f7a-4738-9cd4-8a90301a3ba8")
+	)
+	(wire
+		(pts
+			(xy 146.05 171.45) (xy 163.83 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0eeb359-6bab-49f8-b4a0-d43067a762fd")
+	)
+	(wire
+		(pts
+			(xy 146.05 59.69) (xy 161.29 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7136893-9ebc-420f-9f26-674f0d9312bc")
+	)
+	(wire
+		(pts
+			(xy 127 36.83) (xy 128.27 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e943cd42-d9f5-4208-b985-d6f742b237ef")
+	)
+	(wire
+		(pts
+			(xy 96.52 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba2277a-8276-4609-aca4-3eceb80f2820")
+	)
+	(wire
+		(pts
+			(xy 73.66 44.45) (xy 96.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdd96f9-a4be-4800-904d-32eadaa059ef")
+	)
+	(wire
+		(pts
+			(xy 135.89 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00ee436-a2d9-4e3f-9b77-febf2431daaa")
+	)
+	(wire
+		(pts
+			(xy 128.27 135.89) (xy 127 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ad640e-0ae1-4465-bd3f-bd5bb766dfdb")
+	)
+	(wire
+		(pts
+			(xy 128.27 166.37) (xy 127 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f642f0b8-0c43-4e60-b6b7-a218d4ead602")
+	)
+	(wire
+		(pts
+			(xy 161.29 87.63) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb443067-14cd-4c68-a62c-c521dad635e3")
+	)
+	(wire
+		(pts
+			(xy 73.66 166.37) (xy 111.76 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc5ae57-e8f6-43ad-8c30-1fd9341c43c8")
+	)
+	(wire
+		(pts
+			(xy 135.89 50.8) (xy 138.43 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3937e1-0217-4a14-b8df-2e47b4800013")
+	)
+	(global_label "ANN_D03"
+		(shape input)
+		(at 171.45 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c14aaac-7450-436b-aa26-504ef7386f85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8414 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DECODE_B"
+		(shape input)
+		(at 41.91 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31a78dfd-e193-412c-ae7d-a4c8cd04ffd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.2487 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D08"
+		(shape input)
+		(at 171.45 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6072259b-7712-48e2-b15c-60333cd1b3cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8414 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D07"
+		(shape input)
+		(at 171.45 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62c7df54-1228-40b2-948d-1f53b5edfcb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8414 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D10"
+		(shape input)
+		(at 163.83 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b6704c9-2ccd-4aee-b288-5c1980fb4308")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.2214 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DECODE_A"
+		(shape input)
+		(at 41.91 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d3b5bf2-36c5-46e6-b502-369299e408a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.4301 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D02"
+		(shape input)
+		(at 171.45 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fba3210-c9dc-4ee3-8401-ebc6db417fc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8414 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D04"
+		(shape input)
+		(at 171.45 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c13e6ba-0204-4323-a7ec-6d80b4abfe57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8414 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DECODE_C"
+		(shape input)
+		(at 41.91 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f082fdc-816d-4780-8a15-f2b57825a3ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.2487 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D06"
+		(shape input)
+		(at 171.45 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b48a6634-ad87-4bcb-a37c-0e7151056826")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8414 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DECODE_D"
+		(shape input)
+		(at 41.91 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1190cb9-167e-4fc7-96c2-06f664f827bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.2487 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D05"
+		(shape input)
+		(at 171.45 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d16755d2-d257-468d-ba8d-b0b25b13d1d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8414 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D09"
+		(shape input)
+		(at 171.45 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2bfc853-2517-42c9-9184-da8f65200f37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8414 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D01"
+		(shape input)
+		(at 171.45 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe22447c-2fb9-4646-a4d3-158f63b4d47f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8414 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 50.8 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04a35476-d8de-4302-839b-444aa567544d")
+		(property "Reference" "U3"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b76ef26c-7f25-4eda-8850-f876dd2a31ad")
+		)
+		(pin "4"
+			(uuid "2a27bd37-c0ff-4406-b6e6-320274c1c30f")
+		)
+		(pin "10"
+			(uuid "0801f6db-9cc4-4100-a258-e8ad3cdd386e")
+		)
+		(pin "6"
+			(uuid "02797a21-7d00-4da8-bb12-7a6bbaadc927")
+		)
+		(pin "2"
+			(uuid "d4622942-e9da-4678-86ca-6c2e4840b90e")
+		)
+		(pin "12"
+			(uuid "584a2587-425d-4a31-bb21-586357d2a243")
+		)
+		(pin "7"
+			(uuid "3a4c774c-e114-4694-b906-f5139e5151ef")
+		)
+		(pin "11"
+			(uuid "26a9f926-7585-491a-9ff8-15000b4a7413")
+		)
+		(pin "13"
+			(uuid "b0024d08-92f4-4b1f-b22d-4eb3a38e0de8")
+		)
+		(pin "5"
+			(uuid "448ffebd-debf-47cc-8ca5-92a7138cdeb7")
+		)
+		(pin "14"
+			(uuid "17e0dd39-0d56-4ca4-b34e-30c02e04a5e6")
+		)
+		(pin "9"
+			(uuid "ca619bfe-6ffb-45c0-adb5-f088ed5145de")
+		)
+		(pin "1"
+			(uuid "95151b9b-de1b-4fc0-b93d-9b0b0d0cca20")
+		)
+		(pin "8"
+			(uuid "9bad2c07-d4a4-4308-abcd-34ed29fb9f98")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U3")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 64.77 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "237a98f4-9ac4-4ee4-a248-84d96ab5dcf5")
+		(property "Reference" "Q3"
+			(at 148.59 66.0401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 63.5001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "611de1a2-3b8c-4961-85ee-46ebcaa30bd5")
+		)
+		(pin "2"
+			(uuid "d8cbf3de-969e-4d58-a274-d23c17147ca9")
+		)
+		(pin "3"
+			(uuid "75896ab9-0328-437f-919b-b0257c2c51e1")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "260f202a-7496-4f5f-a737-53ecbf2ad1b6")
+		(property "Reference" "R8"
+			(at 132.08 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a13ce15-5d27-4863-bd38-219d0e3d5054")
+		)
+		(pin "1"
+			(uuid "cbafa1a4-c93e-4df9-a7ab-e72e0e4acb3b")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 36.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "265c9e46-696d-47ec-8513-3ae673d90309")
+		(property "Reference" "Q1"
+			(at 148.59 38.1001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 35.5601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4d08d9a-9dbc-4880-8eda-4e16391f3249")
+		)
+		(pin "2"
+			(uuid "73229a77-58ab-4e6d-a517-08fe9441041b")
+		)
+		(pin "3"
+			(uuid "a5587b79-e8ba-48a5-8ad6-2d60108205bc")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4028")
+		(at 60.96 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2693490f-00b7-4939-b009-e6cbec3c6455")
+		(property "Reference" "U2"
+			(at 63.1033 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4028"
+			(at 63.1033 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+			(at 60.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4028bms.pdf"
+			(at 60.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Decoder 4 to 10 lines"
+			(at 60.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "c8d2903a-bb3d-4814-b42f-9534fd007d1a")
+		)
+		(pin "15"
+			(uuid "274cdc17-66af-4893-88f1-40e8204e5b35")
+		)
+		(pin "11"
+			(uuid "0fb66577-7769-425f-8221-8775fb15c311")
+		)
+		(pin "16"
+			(uuid "0d723b0a-e22e-4c54-ae38-2a33f471741b")
+		)
+		(pin "10"
+			(uuid "dadfee94-f1dd-4878-bc1c-3bcd265c1b33")
+		)
+		(pin "8"
+			(uuid "55ab04ff-6cd7-4747-aa47-ecf852f32c8e")
+		)
+		(pin "3"
+			(uuid "01d12eb3-bd32-462b-82be-054313170611")
+		)
+		(pin "14"
+			(uuid "f66c6af2-0e03-47dc-bf88-e93fddde9812")
+		)
+		(pin "2"
+			(uuid "69587d95-5abb-4b27-922c-6c4153c78ce5")
+		)
+		(pin "5"
+			(uuid "f9bd35a6-c093-4cf9-ac68-53a5fbbfd712")
+		)
+		(pin "1"
+			(uuid "03c5a19a-8519-4b86-ab17-3afe1c13c00a")
+		)
+		(pin "12"
+			(uuid "e8cae808-72d8-4ba7-9070-e2265b489128")
+		)
+		(pin "4"
+			(uuid "dbeb0524-c66d-4394-a67c-5d9bca1d7d9a")
+		)
+		(pin "9"
+			(uuid "7c083ddb-8a5d-4191-97fb-dcf61a18bc00")
+		)
+		(pin "7"
+			(uuid "bd7d3c26-9e0c-4cba-94d6-bcec16259ac8")
+		)
+		(pin "6"
+			(uuid "7ff47134-9fd8-4497-9121-203f6113f81a")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "380efaf9-9201-4eaa-81fd-bdc5ee287293")
+		(property "Reference" "Q4"
+			(at 148.59 80.0101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90589681-fb0b-493c-9b68-151c228d1d30")
+		)
+		(pin "2"
+			(uuid "d4490979-1977-4033-a20b-d64570d3df2b")
+		)
+		(pin "3"
+			(uuid "64e7acb5-9a74-41fc-9aef-e6dabc9ece36")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 151.13 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46760968-c2e3-4fa9-95ce-621ee5ffe99c")
+		(property "Reference" "U4"
+			(at 119.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "63cb1f87-a463-4903-9d4a-29e053df0548")
+		)
+		(pin "9"
+			(uuid "ee12c1ec-a124-4fbb-92e6-90c71acd8934")
+		)
+		(pin "5"
+			(uuid "4242808d-908c-4dd2-a2fb-8460f4c0f3ff")
+		)
+		(pin "12"
+			(uuid "c358c4b4-72ae-44ad-b675-536d01933869")
+		)
+		(pin "4"
+			(uuid "8a657d68-2f39-4441-8443-a84593ff342e")
+		)
+		(pin "7"
+			(uuid "bd3a5747-49af-47fa-9921-2318377fcdba")
+		)
+		(pin "2"
+			(uuid "c2c89705-6bd7-456b-bbed-db15ffaa4862")
+		)
+		(pin "1"
+			(uuid "7b50098c-fb04-4c2f-8023-98c57cb75c55")
+		)
+		(pin "8"
+			(uuid "38b1a3ca-d882-4feb-8b0f-7200c0f79db3")
+		)
+		(pin "10"
+			(uuid "c2bc98c2-b42b-44ab-bf13-b32cf5e5941d")
+		)
+		(pin "13"
+			(uuid "f964fa5d-f593-4b58-a275-3f300b02f5cf")
+		)
+		(pin "11"
+			(uuid "1bf3a8b5-f5ed-4138-bfc2-d946b2c704d6")
+		)
+		(pin "3"
+			(uuid "d6ef4ad7-44de-4e1b-9697-01cb98a98d5d")
+		)
+		(pin "14"
+			(uuid "61ada06e-4216-4eff-828c-11d2c34c3792")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 120.65 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4837ba45-aa64-4164-8682-cbd414bb3f0d")
+		(property "Reference" "U4"
+			(at 119.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7a2a87d7-7d39-4918-894c-0462aa1a7fd4")
+		)
+		(pin "9"
+			(uuid "ee12c1ec-a124-4fbb-92e6-90c71acd8935")
+		)
+		(pin "5"
+			(uuid "d06efba5-4310-439d-b381-5ad746217c7c")
+		)
+		(pin "12"
+			(uuid "c358c4b4-72ae-44ad-b675-536d0193386a")
+		)
+		(pin "4"
+			(uuid "8a657d68-2f39-4441-8443-a84593ff342f")
+		)
+		(pin "7"
+			(uuid "bd3a5747-49af-47fa-9921-2318377fcdbb")
+		)
+		(pin "2"
+			(uuid "0806088f-ffb4-474b-8be4-6427ae34627d")
+		)
+		(pin "1"
+			(uuid "60ec46af-a6c1-4fba-9c7f-a009dcac0c92")
+		)
+		(pin "8"
+			(uuid "38b1a3ca-d882-4feb-8b0f-7200c0f79db4")
+		)
+		(pin "10"
+			(uuid "c2bc98c2-b42b-44ab-bf13-b32cf5e5941e")
+		)
+		(pin "13"
+			(uuid "f964fa5d-f593-4b58-a275-3f300b02f5d0")
+		)
+		(pin "11"
+			(uuid "1bf3a8b5-f5ed-4138-bfc2-d946b2c704d7")
+		)
+		(pin "3"
+			(uuid "d6ef4ad7-44de-4e1b-9697-01cb98a98d5e")
+		)
+		(pin "14"
+			(uuid "61ada06e-4216-4eff-828c-11d2c34c3793")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b53b4a4-adc3-437e-b9dc-3b8cbebb2ec1")
+		(property "Reference" "R4"
+			(at 132.08 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4609d60e-5cc2-4139-b468-529b641ee8a2")
+		)
+		(pin "1"
+			(uuid "d36fa7c5-2569-49a0-9ac6-1c79b3456a79")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa2848e-5eda-47a2-8bc8-4353d295def6")
+		(property "Reference" "U3"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "893883d9-b001-4d62-8f32-f8d991247a7e")
+		)
+		(pin "4"
+			(uuid "510f2294-5d61-4a72-8d14-da7a8dad74a8")
+		)
+		(pin "10"
+			(uuid "0801f6db-9cc4-4100-a258-e8ad3cdd386f")
+		)
+		(pin "6"
+			(uuid "c387ce36-3172-4b16-a5f0-b5fdfd323e3d")
+		)
+		(pin "2"
+			(uuid "d4622942-e9da-4678-86ca-6c2e4840b90f")
+		)
+		(pin "12"
+			(uuid "584a2587-425d-4a31-bb21-586357d2a244")
+		)
+		(pin "7"
+			(uuid "3a4c774c-e114-4694-b906-f5139e5151f0")
+		)
+		(pin "11"
+			(uuid "26a9f926-7585-491a-9ff8-15000b4a7414")
+		)
+		(pin "13"
+			(uuid "b0024d08-92f4-4b1f-b22d-4eb3a38e0de9")
+		)
+		(pin "5"
+			(uuid "4b3c7480-2231-4b57-889e-5880fe87afb3")
+		)
+		(pin "14"
+			(uuid "17e0dd39-0d56-4ca4-b34e-30c02e04a5e7")
+		)
+		(pin "9"
+			(uuid "ca619bfe-6ffb-45c0-adb5-f088ed5145df")
+		)
+		(pin "1"
+			(uuid "95151b9b-de1b-4fc0-b93d-9b0b0d0cca21")
+		)
+		(pin "8"
+			(uuid "9bad2c07-d4a4-4308-abcd-34ed29fb9f99")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 166.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62aaebf2-7607-49c3-87aa-56d6415483a4")
+		(property "Reference" "Q10"
+			(at 148.59 167.6401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 165.1001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d116d984-9a11-4d15-b255-ad12543b17cc")
+		)
+		(pin "2"
+			(uuid "af15c7a9-5da4-4875-ae29-ff46fc919aab")
+		)
+		(pin "3"
+			(uuid "c6d9d336-d2ee-46d1-ab58-07ed2590e7d5")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79257b89-4160-4da4-924e-6bda36aca99c")
+		(property "Reference" "R7"
+			(at 132.08 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9658fe6e-1a93-46f8-9d78-41ea77e6f0dd")
+		)
+		(pin "1"
+			(uuid "8ad515a2-51fd-44dd-a5f3-f8ecca62fdfb")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 135.89 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79d1b5ce-0c7d-48bd-8c74-5c529b32d8de")
+		(property "Reference" "U4"
+			(at 119.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7a2a87d7-7d39-4918-894c-0462aa1a7fd6")
+		)
+		(pin "9"
+			(uuid "ee12c1ec-a124-4fbb-92e6-90c71acd8937")
+		)
+		(pin "5"
+			(uuid "d06efba5-4310-439d-b381-5ad746217c7e")
+		)
+		(pin "12"
+			(uuid "c358c4b4-72ae-44ad-b675-536d0193386c")
+		)
+		(pin "4"
+			(uuid "5a353418-8e81-4cd5-9320-593567a81a94")
+		)
+		(pin "7"
+			(uuid "bd3a5747-49af-47fa-9921-2318377fcdbd")
+		)
+		(pin "2"
+			(uuid "c2c89705-6bd7-456b-bbed-db15ffaa4865")
+		)
+		(pin "1"
+			(uuid "7b50098c-fb04-4c2f-8023-98c57cb75c58")
+		)
+		(pin "8"
+			(uuid "38b1a3ca-d882-4feb-8b0f-7200c0f79db6")
+		)
+		(pin "10"
+			(uuid "c2bc98c2-b42b-44ab-bf13-b32cf5e59420")
+		)
+		(pin "13"
+			(uuid "f964fa5d-f593-4b58-a275-3f300b02f5d2")
+		)
+		(pin "11"
+			(uuid "1bf3a8b5-f5ed-4138-bfc2-d946b2c704d9")
+		)
+		(pin "3"
+			(uuid "c9bce0cb-78c9-4525-87de-4878d7830fbc")
+		)
+		(pin "14"
+			(uuid "61ada06e-4216-4eff-828c-11d2c34c3795")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 161.29 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f05f85b-1945-4877-b080-4e0fed353d88")
+		(property "Reference" "#PWR07"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 161.29 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a69c2f09-894b-4214-a3b6-38f6dbb6afb4")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96a587ab-a21d-4994-a9d8-4ac083028f15")
+		(property "Reference" "U4"
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "893883d9-b001-4d62-8f32-f8d991247a7a")
+		)
+		(pin "4"
+			(uuid "510f2294-5d61-4a72-8d14-da7a8dad74a4")
+		)
+		(pin "10"
+			(uuid "0801f6db-9cc4-4100-a258-e8ad3cdd386b")
+		)
+		(pin "6"
+			(uuid "02797a21-7d00-4da8-bb12-7a6bbaadc924")
+		)
+		(pin "2"
+			(uuid "d4622942-e9da-4678-86ca-6c2e4840b90b")
+		)
+		(pin "12"
+			(uuid "79cd8aa1-b7d1-4706-8c40-9d0de32e2356")
+		)
+		(pin "7"
+			(uuid "3a4c774c-e114-4694-b906-f5139e5151ec")
+		)
+		(pin "11"
+			(uuid "26a9f926-7585-491a-9ff8-15000b4a7410")
+		)
+		(pin "13"
+			(uuid "f459fa67-b17e-4d07-b064-9ebff33b2243")
+		)
+		(pin "5"
+			(uuid "448ffebd-debf-47cc-8ca5-92a7138cdeb4")
+		)
+		(pin "14"
+			(uuid "17e0dd39-0d56-4ca4-b34e-30c02e04a5e3")
+		)
+		(pin "9"
+			(uuid "ca619bfe-6ffb-45c0-adb5-f088ed5145db")
+		)
+		(pin "1"
+			(uuid "95151b9b-de1b-4fc0-b93d-9b0b0d0cca1d")
+		)
+		(pin "8"
+			(uuid "9bad2c07-d4a4-4308-abcd-34ed29fb9f95")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e6928f0-539b-4ca2-814b-348bbf9dd4b8")
+		(property "Reference" "Q5"
+			(at 148.59 93.9801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d974157-4d25-41a3-bc09-e71dad82410d")
+		)
+		(pin "2"
+			(uuid "44343166-5691-4ea3-9d01-a712ae555823")
+		)
+		(pin "3"
+			(uuid "60b3447c-daa7-405a-8c74-ca6ecc3f8cad")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3303a40-5c0e-4c72-943b-2d4c322e8121")
+		(property "Reference" "R9"
+			(at 132.08 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 150.114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38ca33ee-209d-46c6-9b3f-330cfa73316a")
+		)
+		(pin "1"
+			(uuid "bd6f69cf-2180-4f05-99ad-c948d01348fe")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 60.96 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac479a53-7f24-42ea-bb2c-a9b968ac05dd")
+		(property "Reference" "#PWR06"
+			(at 60.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 60.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 60.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09ac32fe-2121-4fc2-9a09-2e0d87cd3a77")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 36.83 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac9a3663-660a-4595-8a7d-1867be5e07e1")
+		(property "Reference" "U3"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "893883d9-b001-4d62-8f32-f8d991247a78")
+		)
+		(pin "4"
+			(uuid "510f2294-5d61-4a72-8d14-da7a8dad74a2")
+		)
+		(pin "10"
+			(uuid "0801f6db-9cc4-4100-a258-e8ad3cdd3869")
+		)
+		(pin "6"
+			(uuid "02797a21-7d00-4da8-bb12-7a6bbaadc922")
+		)
+		(pin "2"
+			(uuid "b6091db2-82fa-4050-b573-9abb2245e6c3")
+		)
+		(pin "12"
+			(uuid "584a2587-425d-4a31-bb21-586357d2a23e")
+		)
+		(pin "7"
+			(uuid "3a4c774c-e114-4694-b906-f5139e5151ea")
+		)
+		(pin "11"
+			(uuid "26a9f926-7585-491a-9ff8-15000b4a740e")
+		)
+		(pin "13"
+			(uuid "b0024d08-92f4-4b1f-b22d-4eb3a38e0de3")
+		)
+		(pin "5"
+			(uuid "448ffebd-debf-47cc-8ca5-92a7138cdeb2")
+		)
+		(pin "14"
+			(uuid "17e0dd39-0d56-4ca4-b34e-30c02e04a5e1")
+		)
+		(pin "9"
+			(uuid "ca619bfe-6ffb-45c0-adb5-f088ed5145d9")
+		)
+		(pin "1"
+			(uuid "7e128957-9ad6-49c0-9e45-db2e5121f66b")
+		)
+		(pin "8"
+			(uuid "9bad2c07-d4a4-4308-abcd-34ed29fb9f93")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 166.37 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af2d54da-0dc1-4e19-bbb4-24c4f33afa23")
+		(property "Reference" "U4"
+			(at 119.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7a2a87d7-7d39-4918-894c-0462aa1a7fd5")
+		)
+		(pin "9"
+			(uuid "3e44bcc7-71e6-4491-a502-11d097bf0b04")
+		)
+		(pin "5"
+			(uuid "d06efba5-4310-439d-b381-5ad746217c7d")
+		)
+		(pin "12"
+			(uuid "c358c4b4-72ae-44ad-b675-536d0193386b")
+		)
+		(pin "4"
+			(uuid "8a657d68-2f39-4441-8443-a84593ff3430")
+		)
+		(pin "7"
+			(uuid "bd3a5747-49af-47fa-9921-2318377fcdbc")
+		)
+		(pin "2"
+			(uuid "c2c89705-6bd7-456b-bbed-db15ffaa4864")
+		)
+		(pin "1"
+			(uuid "7b50098c-fb04-4c2f-8023-98c57cb75c57")
+		)
+		(pin "8"
+			(uuid "e84d2997-66b9-49d0-882c-68d49e303e21")
+		)
+		(pin "10"
+			(uuid "c2bc98c2-b42b-44ab-bf13-b32cf5e5941f")
+		)
+		(pin "13"
+			(uuid "f964fa5d-f593-4b58-a275-3f300b02f5d1")
+		)
+		(pin "11"
+			(uuid "1bf3a8b5-f5ed-4138-bfc2-d946b2c704d8")
+		)
+		(pin "3"
+			(uuid "d6ef4ad7-44de-4e1b-9697-01cb98a98d5f")
+		)
+		(pin "14"
+			(uuid "61ada06e-4216-4eff-828c-11d2c34c3794")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U4")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 151.13 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b25de41c-5fbd-47e2-a83b-c45b49dda413")
+		(property "Reference" "Q9"
+			(at 148.59 152.4001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 149.8601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d437c13b-9d5a-4ea8-8496-ee0a3a1a0beb")
+		)
+		(pin "2"
+			(uuid "c6ce8093-1431-459c-907b-605c2214d738")
+		)
+		(pin "3"
+			(uuid "ec76de8c-a079-4c9e-bdb3-ad85319ee3a5")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 78.74 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8150ade-5f22-41f6-8d4b-d7297a0396fb")
+		(property "Reference" "U3"
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "893883d9-b001-4d62-8f32-f8d991247a7b")
+		)
+		(pin "4"
+			(uuid "510f2294-5d61-4a72-8d14-da7a8dad74a5")
+		)
+		(pin "10"
+			(uuid "0801f6db-9cc4-4100-a258-e8ad3cdd386c")
+		)
+		(pin "6"
+			(uuid "02797a21-7d00-4da8-bb12-7a6bbaadc925")
+		)
+		(pin "2"
+			(uuid "d4622942-e9da-4678-86ca-6c2e4840b90c")
+		)
+		(pin "12"
+			(uuid "584a2587-425d-4a31-bb21-586357d2a241")
+		)
+		(pin "7"
+			(uuid "3a4c774c-e114-4694-b906-f5139e5151ed")
+		)
+		(pin "11"
+			(uuid "26a9f926-7585-491a-9ff8-15000b4a7411")
+		)
+		(pin "13"
+			(uuid "b0024d08-92f4-4b1f-b22d-4eb3a38e0de6")
+		)
+		(pin "5"
+			(uuid "448ffebd-debf-47cc-8ca5-92a7138cdeb5")
+		)
+		(pin "14"
+			(uuid "17e0dd39-0d56-4ca4-b34e-30c02e04a5e4")
+		)
+		(pin "9"
+			(uuid "dfa1d39b-eca2-4fa5-afa2-b1cc13f95e8e")
+		)
+		(pin "1"
+			(uuid "95151b9b-de1b-4fc0-b93d-9b0b0d0cca1e")
+		)
+		(pin "8"
+			(uuid "77f8ab71-a0f6-4e75-8250-303cd47f9af4")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 106.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb540f07-e227-45af-961c-1a5adc729547")
+		(property "Reference" "Q6"
+			(at 148.59 107.9501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 105.4101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b468c671-3bd8-499e-840b-a27dfb17f44e")
+		)
+		(pin "2"
+			(uuid "435d1dd7-221d-4f72-a0c4-1979c3180995")
+		)
+		(pin "3"
+			(uuid "a2f0eaa1-82fc-47ee-9257-90eb88fc7754")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdff8df4-3157-44b2-bd55-5a0aa395cc58")
+		(property "Reference" "R10"
+			(at 132.08 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 165.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "438cef17-1dda-4b70-8ebe-d548e0d8c490")
+		)
+		(pin "1"
+			(uuid "094af75d-e319-4a69-8205-c4af87e7a36c")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 135.89 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1f324c2-ded4-4cd8-9a01-d43be1e32762")
+		(property "Reference" "Q8"
+			(at 148.59 137.1601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 134.6201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3e75c65-91b6-40e2-9aab-5532173cdaff")
+		)
+		(pin "2"
+			(uuid "c04b6030-f1a7-4f02-9f03-71cf74c8e09e")
+		)
+		(pin "3"
+			(uuid "ea72bd14-c1ac-40c4-aeec-8c62519c0fcc")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9a3eb65-587e-4122-9125-dc30ed84c709")
+		(property "Reference" "Q2"
+			(at 148.59 52.0701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 49.5301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffbd06d6-6576-45bf-b5bf-762d49046e07")
+		)
+		(pin "2"
+			(uuid "976ec1a1-106b-4839-ab74-fabdb43ba4ab")
+		)
+		(pin "3"
+			(uuid "e2d0ed7a-80cb-4909-8121-71542c0b5271")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbeb89f6-4f7a-452d-ad77-b5402031a29c")
+		(property "Reference" "#PWR05"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77d499de-96a9-45c1-af21-24b92230fef8")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 143.51 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cecce45b-9e63-4431-873a-c7ab716c1a22")
+		(property "Reference" "Q7"
+			(at 148.59 121.9201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 148.59 119.3801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 143.51 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14eaacd1-5440-42fc-9f65-d5580aa283ff")
+		)
+		(pin "2"
+			(uuid "254d4afc-0c6c-4fe4-9f8b-bab9faadf725")
+		)
+		(pin "3"
+			(uuid "c7d300be-f0b0-4149-bb91-a6d1b55a7f81")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4069")
+		(at 119.38 92.71 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b6bbd5-45a7-4dd4-a511-228bd134c3ac")
+		(property "Reference" "U3"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex inverter"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "893883d9-b001-4d62-8f32-f8d991247a79")
+		)
+		(pin "4"
+			(uuid "510f2294-5d61-4a72-8d14-da7a8dad74a3")
+		)
+		(pin "10"
+			(uuid "afc1aade-99cc-405b-81d0-3ac1e545b5a2")
+		)
+		(pin "6"
+			(uuid "02797a21-7d00-4da8-bb12-7a6bbaadc923")
+		)
+		(pin "2"
+			(uuid "d4622942-e9da-4678-86ca-6c2e4840b90a")
+		)
+		(pin "12"
+			(uuid "584a2587-425d-4a31-bb21-586357d2a23f")
+		)
+		(pin "7"
+			(uuid "3a4c774c-e114-4694-b906-f5139e5151eb")
+		)
+		(pin "11"
+			(uuid "198f78fd-48dc-40ce-ac2b-4c778c21d743")
+		)
+		(pin "13"
+			(uuid "b0024d08-92f4-4b1f-b22d-4eb3a38e0de4")
+		)
+		(pin "5"
+			(uuid "448ffebd-debf-47cc-8ca5-92a7138cdeb3")
+		)
+		(pin "14"
+			(uuid "17e0dd39-0d56-4ca4-b34e-30c02e04a5e2")
+		)
+		(pin "9"
+			(uuid "ca619bfe-6ffb-45c0-adb5-f088ed5145da")
+		)
+		(pin "1"
+			(uuid "95151b9b-de1b-4fc0-b93d-9b0b0d0cca1c")
+		)
+		(pin "8"
+			(uuid "9bad2c07-d4a4-4308-abcd-34ed29fb9f94")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb69dc19-52cf-466d-a986-6d5b90d94ce2")
+		(property "Reference" "R6"
+			(at 132.08 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1884305-9110-4d3a-b45a-4e7fdd30a059")
+		)
+		(pin "1"
+			(uuid "55eec4ad-4299-4ec3-b83c-12652693a284")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f163f96f-37ff-43cf-aa8c-81ce24be713f")
+		(property "Reference" "R2"
+			(at 132.08 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecd41bc1-7749-4908-952b-f0bbafe5753d")
+		)
+		(pin "1"
+			(uuid "da634106-57e9-4d87-b218-a7e94ad58611")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f92e9183-4b8a-442f-9a6f-6c1aa2b8e8d8")
+		(property "Reference" "R3"
+			(at 132.08 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb98192c-cd8f-4081-99b3-3aeb5638abc6")
+		)
+		(pin "1"
+			(uuid "e461cd99-148c-4c46-a616-a9bc5cc59718")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff866c27-67e2-49ab-9166-1b046ec5b2c1")
+		(property "Reference" "R1"
+			(at 132.08 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b84008d6-8a60-4a2e-a347-7f9f1c9948e2")
+		)
+		(pin "1"
+			(uuid "8b195389-56b8-4c46-b353-ae7402e6d5c1")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffcee97a-5d12-462e-bc5e-a6f978d07de0")
+		(property "Reference" "R5"
+			(at 132.08 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 132.08 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 132.334 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da742fd2-1249-4f0a-bae4-5afdbebb46cc")
+		)
+		(pin "1"
+			(uuid "e2b8ab70-f138-423f-ba84-7b2b9775aec3")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/ce846bb1-174d-4113-9d63-66ffb69da8ba"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,78 @@
+# ==========================
+# ESP-IDF Build Artifacts
+# ==========================
+/build/
+*.bin
+*.elf
+*.map
+*.img
+*.dump
+
+# Keep sdkconfig files
+!sdkconfig
+!sdkconfig.defaults
+
+# But not sdkconfig.old
+sdkconfig.old
+
+# ==========================
+# Flash / Generated Args
+# ==========================
+flash_project_args
+flash_args
+
+# ==========================
+# CMake / Ninja
+# ==========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+.vscode/ipch/
+# (If you want to commit specific vc code settings, tell me which files)
+
+# ==========================
+# JetBrains / CLion (in case)
+# ==========================
+.idea/
+cmake-build-*/
+
+# ==========================
+# Logs / Temp Files
+# ==========================
+*.log
+*.tmp
+*.backup
+
+# ==========================
+# ESP-IDF Tools & Cache
+# ==========================
+idf_component_wrapper/
+managed_components/
+dependencies.lock   # remove '!' if you want dependencies.lock tracked
+dist/
+
+# ==========================
+# Misc
+# ==========================
+.DS_Store
+Thumbs.db

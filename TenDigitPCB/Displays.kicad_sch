@@ -1,0 +1,2524 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7ce4a5fa-ee60-4a6f-b424-3c777f3c7e02")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Displays:TOD-5621"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DS"
+				(at 54.61 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TOD-5621"
+				(at 54.61 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DisplayLibrary:TOD-5621"
+				(at 54.61 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 54.61 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED Displays & Accessories Green 571nm .56in Dual Digit 7 Segment"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8"
+				(at 54.61 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "630-HDSP-K511"
+				(at 54.61 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 54.61 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Unknown"
+				(at 54.61 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TOD-5621"
+				(at 54.61 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TOD-5621_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 53.34 -29.21)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 0)
+					(length 5.08)
+					(name "RH_ANODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "LH_ANODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 0 180)
+					(length 5.08)
+					(name "C_CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -3.81 180)
+					(length 5.08)
+					(name "DP_CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -7.62 180)
+					(length 5.08)
+					(name "E_CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -11.43 180)
+					(length 5.08)
+					(name "D_CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -15.24 180)
+					(length 5.08)
+					(name "F_CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -19.05 180)
+					(length 5.08)
+					(name "G_CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -22.86 180)
+					(length 5.08)
+					(name "B_CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -26.67 180)
+					(length 5.08)
+					(name "A_CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 104.14 139.7) (xy 111.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0472db9f-f958-42bc-baed-7ef9d28ab2e0")
+	)
+	(wire
+		(pts
+			(xy 227.33 96.52) (xy 234.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b355185-0b44-45c3-83bc-9bba860bd3a3")
+	)
+	(wire
+		(pts
+			(xy 104.14 81.28) (xy 111.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e035700-d78b-483a-85e6-da7e0ea97a33")
+	)
+	(wire
+		(pts
+			(xy 227.33 107.95) (xy 234.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118d2323-ffb3-4051-855a-eb296fe4b45f")
+	)
+	(wire
+		(pts
+			(xy 104.14 92.71) (xy 111.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bced68-2da0-47b3-9a4d-2ca92d28b820")
+	)
+	(wire
+		(pts
+			(xy 227.33 104.14) (xy 234.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a05ed3b-7fd4-429b-8d43-e12a986c7a41")
+	)
+	(wire
+		(pts
+			(xy 104.14 38.1) (xy 111.76 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe490f9-7b99-4879-b99f-fabefb3df8fb")
+	)
+	(wire
+		(pts
+			(xy 227.33 81.28) (xy 234.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f38e83-03a9-45b7-8b96-bc0b2c09c915")
+	)
+	(wire
+		(pts
+			(xy 104.14 41.91) (xy 111.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a77b80d-474f-4037-b70c-0d0f04e27155")
+	)
+	(wire
+		(pts
+			(xy 227.33 38.1) (xy 234.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df0fe1b-1d0e-4999-8b40-3dc3d08cb58d")
+	)
+	(wire
+		(pts
+			(xy 227.33 88.9) (xy 234.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305e6386-bca3-419f-8cd8-7f79d4e988de")
+	)
+	(wire
+		(pts
+			(xy 104.14 147.32) (xy 111.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32755419-19e7-40e6-9535-5f37ceb6c8e9")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a22908-cb22-4f76-a625-904dec8da2cb")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 111.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394777ec-274b-4636-96b1-4d73a45d88cd")
+	)
+	(wire
+		(pts
+			(xy 104.14 45.72) (xy 111.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d7f91a-b28f-49ae-a315-aa4b19953b86")
+	)
+	(wire
+		(pts
+			(xy 227.33 85.09) (xy 234.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5323a87b-0780-41b4-9f23-685b01b850b8")
+	)
+	(wire
+		(pts
+			(xy 227.33 60.96) (xy 234.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a3dac1-5045-4f7a-b0af-df621fb820db")
+	)
+	(wire
+		(pts
+			(xy 104.14 151.13) (xy 111.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61af2526-fb5d-470a-821f-e897d78c8188")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 111.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65091ce0-68c3-408e-898d-77cf6b57b23e")
+	)
+	(wire
+		(pts
+			(xy 104.14 49.53) (xy 111.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd3e690-533c-46b0-aa4e-dc81ea39d71e")
+	)
+	(wire
+		(pts
+			(xy 104.14 124.46) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7743abfe-989a-4dec-8f75-bf0e7c46a215")
+	)
+	(wire
+		(pts
+			(xy 227.33 57.15) (xy 234.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b918bb3-bc6a-481b-852d-bf2045334e85")
+	)
+	(wire
+		(pts
+			(xy 104.14 85.09) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915c60a9-8fef-4aed-a2d5-611184d65707")
+	)
+	(wire
+		(pts
+			(xy 227.33 64.77) (xy 234.95 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9459c688-7595-47cf-834b-f9c79054e341")
+	)
+	(wire
+		(pts
+			(xy 104.14 96.52) (xy 111.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f47b1f-ceac-45ff-8e07-2be012f47707")
+	)
+	(wire
+		(pts
+			(xy 104.14 143.51) (xy 111.76 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e8049c-2a78-49af-8ed9-f1d10c1ff242")
+	)
+	(wire
+		(pts
+			(xy 104.14 60.96) (xy 111.76 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e2440f-23e8-4b65-b626-59200c51072e")
+	)
+	(wire
+		(pts
+			(xy 104.14 135.89) (xy 111.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21883a6-9116-48ac-b9bf-36ed040e5e5c")
+	)
+	(wire
+		(pts
+			(xy 227.33 100.33) (xy 234.95 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a530169e-5461-4f24-8fca-124555702b5a")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 111.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b9963d-1614-40ab-bba5-1c5ccde363ed")
+	)
+	(wire
+		(pts
+			(xy 227.33 49.53) (xy 234.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abba4f45-9a85-4564-91bb-8cb62bb28e07")
+	)
+	(wire
+		(pts
+			(xy 227.33 45.72) (xy 234.95 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc072877-7590-478d-b2bf-f08ddf3647d6")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc660bd0-fa9e-4e43-9174-8844b894ec0d")
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c103cddb-76d7-4c77-b70f-5fa30bd289e2")
+	)
+	(wire
+		(pts
+			(xy 227.33 53.34) (xy 234.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48a6dc0-5ed3-4f09-945d-4b6b294aa4cc")
+	)
+	(wire
+		(pts
+			(xy 227.33 92.71) (xy 234.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fcb732-66ad-41d2-a46c-80cc83ebdd86")
+	)
+	(wire
+		(pts
+			(xy 104.14 128.27) (xy 111.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2008365-2b3c-4bcd-997c-5dcd7b94d024")
+	)
+	(wire
+		(pts
+			(xy 104.14 64.77) (xy 111.76 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e1d1c1-30e9-45c9-9b49-a1c989c39ea4")
+	)
+	(wire
+		(pts
+			(xy 104.14 132.08) (xy 111.76 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65e0fb5-b47d-41bc-b016-6fc58990ebca")
+	)
+	(wire
+		(pts
+			(xy 227.33 41.91) (xy 234.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2772532-2dd8-4db2-9371-3399e05b8aec")
+	)
+	(global_label "ALL_D"
+		(shape input)
+		(at 111.76 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1522b2f4-4e71-4d7e-8439-28b47fcd883a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_E"
+		(shape input)
+		(at 234.95 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17507a6a-25f0-4abb-9aa8-4d8e2c84758e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.1966 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_DP"
+		(shape input)
+		(at 111.76 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17cf5265-de67-4913-b8c2-b9a888748733")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.3976 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_E"
+		(shape input)
+		(at 111.76 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17fe169c-3532-473c-b37c-0bac2fe73712")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.0066 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_G"
+		(shape input)
+		(at 234.95 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c9b8267-c761-4752-bcf3-6b3f9a420bb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3176 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_A"
+		(shape input)
+		(at 234.95 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ffd26c1-727b-4728-8fef-fffa22a96eb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.1362 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_F"
+		(shape input)
+		(at 111.76 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "242353df-783c-4918-b880-2b7b28fe64d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9462 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_D"
+		(shape input)
+		(at 111.76 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29b661c1-3f07-487c-a017-9e757c534ab8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_G"
+		(shape input)
+		(at 234.95 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a629820-b943-4681-bd7c-2d56700051c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3176 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_C"
+		(shape input)
+		(at 111.76 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d721910-386a-4d50-ac06-fe9c46a2f06b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_DP"
+		(shape input)
+		(at 234.95 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34455ea5-043f-4e13-912c-4b6a0a54a511")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.5876 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_E"
+		(shape input)
+		(at 234.95 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "392be84a-6ddf-4218-be51-3b71b8ce4f31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.1966 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_B"
+		(shape input)
+		(at 234.95 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39780db4-e88a-4d17-a4fa-66c1146e0e48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3176 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_G"
+		(shape input)
+		(at 111.76 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4318a886-f2ad-40c1-8709-86e8a6e7e01d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_F"
+		(shape input)
+		(at 234.95 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a54613d-a8ce-422d-8e18-eab1e6a903a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.1362 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_C"
+		(shape input)
+		(at 111.76 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58b7b63e-8d8b-4792-9756-928d31f0e81a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_DP"
+		(shape input)
+		(at 111.76 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59d34e76-8889-41aa-a4c5-0a1a8efe2686")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.3976 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_C"
+		(shape input)
+		(at 234.95 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bd0621b-ab8d-4f84-9d19-4835141dce44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3176 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_DP"
+		(shape input)
+		(at 234.95 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61ae8e65-b674-4817-8f4b-ea22628ae207")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.5876 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_F"
+		(shape input)
+		(at 111.76 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61cf92bd-579b-476f-bd5b-5d8130b0354c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9462 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D02"
+		(shape input)
+		(at 45.72 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63465c3b-041d-4d69-9ffe-3f4ba531b015")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_DP"
+		(shape input)
+		(at 111.76 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6642e735-58b1-47c6-a2c9-328dbdf80435")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.3976 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_B"
+		(shape input)
+		(at 111.76 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a51b879-b9d3-4897-a6e1-3d54ce9c74a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_B"
+		(shape input)
+		(at 234.95 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cc65a77-5cec-4376-9d38-a8d02f0cb8a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3176 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_A"
+		(shape input)
+		(at 111.76 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d53860f-fdc9-4e20-9b36-08d95b722e54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9462 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_A"
+		(shape input)
+		(at 111.76 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7faa33b7-dce1-434c-8081-583bbc408174")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9462 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_F"
+		(shape input)
+		(at 234.95 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "869f2cfc-b0de-44ae-b011-29c2ad4ea1f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.1362 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D09"
+		(shape input)
+		(at 168.91 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bda3e97-78fe-4097-8149-7109f5dd9700")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.5186 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_C"
+		(shape input)
+		(at 111.76 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8dbfbfa0-addb-4764-b65d-7bed90c13c43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D06"
+		(shape input)
+		(at 45.72 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97496515-9b5d-47e2-b8e9-a105153ab430")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_A"
+		(shape input)
+		(at 234.95 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c69df7f-8c8a-412e-9d2f-c0a7ed8bece3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.1362 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D05"
+		(shape input)
+		(at 45.72 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d60fa8a-05a4-45e5-948a-69b3898f4a93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D07"
+		(shape input)
+		(at 168.91 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1ee4720-b927-4093-910d-f5227088a214")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.5186 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_G"
+		(shape input)
+		(at 111.76 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a773e95c-3784-48f1-81c4-f592501aaca2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_G"
+		(shape input)
+		(at 111.76 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ada50773-9250-4128-bf4c-18338f6c60f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D01"
+		(shape input)
+		(at 45.72 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4db2e21-d12f-4801-834e-78bb5b517ac9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D03"
+		(shape input)
+		(at 45.72 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b68b62f9-09ea-4530-8c90-a50ba92bac1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D10"
+		(shape input)
+		(at 168.91 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc1c1b26-42ea-4fb3-a4e9-3595ac19bb98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.5186 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_C"
+		(shape input)
+		(at 234.95 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c655f612-4e17-440b-bb06-eaf2183dc1e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3176 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_B"
+		(shape input)
+		(at 111.76 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca5ae327-a21a-4d78-82a2-4a704f144abc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_D"
+		(shape input)
+		(at 111.76 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d02fb2e5-607f-4800-bb9e-4de0c7944bce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_A"
+		(shape input)
+		(at 111.76 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d140fc69-f0c0-4205-a704-ec0d682f53f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9462 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D04"
+		(shape input)
+		(at 45.72 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9bfd557-9f70-4719-9843-c52e9e6f3c24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ANN_D08"
+		(shape input)
+		(at 168.91 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4b0517f-b0f6-434c-93d2-6a113442ad19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.5186 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_D"
+		(shape input)
+		(at 234.95 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9c01ece-412b-43cb-8d7d-e1ff4233e10d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3176 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_E"
+		(shape input)
+		(at 111.76 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faccfd4e-b0aa-49de-9ec0-d6875a73d733")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.0066 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_B"
+		(shape input)
+		(at 111.76 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb4db4bc-54bf-4969-a40d-feaed64aec5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.1276 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_E"
+		(shape input)
+		(at 111.76 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc9473ca-5e19-4384-8f98-01baca6c1b69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.0066 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_D"
+		(shape input)
+		(at 234.95 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff43cc87-6278-4f02-880c-b8ad91039c36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3176 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ALL_F"
+		(shape input)
+		(at 111.76 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff5e8647-1f6d-4671-a415-a0f068c19716")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.9462 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Displays:TOD-5621")
+		(at 168.91 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20fb8639-b1d6-4cfe-88e5-77bb9a32dd79")
+		(property "Reference" "DS4"
+			(at 198.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TOD-5621"
+			(at 198.12 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DisplayLibrary:TOD-5621"
+			(at 223.52 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Displays & Accessories Green 571nm .56in Dual Digit 7 Segment"
+			(at 168.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at 223.52 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HDSP-K511"
+			(at 223.52 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 223.52 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Unknown"
+			(at 223.52 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TOD-5621"
+			(at 223.52 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "0b734015-9ead-4af1-ac9b-98b63e5f4ae3")
+		)
+		(pin "6"
+			(uuid "9053b80e-6c3e-4576-a1b8-f783bfe3615d")
+		)
+		(pin "7"
+			(uuid "6fd20a35-90f5-4121-b168-e194d9360f66")
+		)
+		(pin "5"
+			(uuid "8eccdf2a-660e-4015-8b5c-ec373025a8df")
+		)
+		(pin "8"
+			(uuid "6380ff30-7faa-491d-ad84-224b1eab1bcf")
+		)
+		(pin "3"
+			(uuid "bc9500b6-f8bd-4341-9df5-25e836de1808")
+		)
+		(pin "2"
+			(uuid "d949fc9a-28ef-41ae-bdaf-8b169b505687")
+		)
+		(pin "4"
+			(uuid "08742203-fdf0-48a9-9ecb-8748a4f5303f")
+		)
+		(pin "1"
+			(uuid "7b8ae008-1481-4f5d-81cc-9af1cab2a0d9")
+		)
+		(pin "10"
+			(uuid "61e5ae0a-7df8-4e02-bd69-91b1d7bc8049")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/d107c9ef-1c5c-4f66-a3f2-74b8c8c78102"
+					(reference "DS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Displays:TOD-5621")
+		(at 45.72 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3156dad8-ad9a-4784-97ec-1c13db8b9e4d")
+		(property "Reference" "DS2"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TOD-5621"
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DisplayLibrary:TOD-5621"
+			(at 100.33 176.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 276.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Displays & Accessories Green 571nm .56in Dual Digit 7 Segment"
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at 100.33 476.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HDSP-K511"
+			(at 100.33 576.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 100.33 676.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Unknown"
+			(at 100.33 776.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TOD-5621"
+			(at 100.33 876.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "0b28961a-db48-4fd5-97f4-cb1ed3486c0e")
+		)
+		(pin "6"
+			(uuid "bb373518-eef4-46b1-9e27-05e0714bade6")
+		)
+		(pin "7"
+			(uuid "1b094649-8b0b-439f-bcc4-d127c60af5ef")
+		)
+		(pin "5"
+			(uuid "02c8d553-699e-4164-8c1c-1b165f883775")
+		)
+		(pin "8"
+			(uuid "55a99866-8d23-4ba2-b22a-0b75fc5a5e31")
+		)
+		(pin "3"
+			(uuid "7c31cdd7-bc5a-46e2-945d-505fad910a90")
+		)
+		(pin "2"
+			(uuid "0001225c-8d6a-4f04-a495-f51290ec6f81")
+		)
+		(pin "4"
+			(uuid "232178bd-31c5-4afe-8207-e757581d9045")
+		)
+		(pin "1"
+			(uuid "7feaad6f-0ca5-4721-9e80-f36fe114f235")
+		)
+		(pin "10"
+			(uuid "2b377352-f6f8-4cdf-b6cc-a85bc6eac1e1")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/d107c9ef-1c5c-4f66-a3f2-74b8c8c78102"
+					(reference "DS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Displays:TOD-5621")
+		(at 45.72 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ce95c88-ddf0-44a2-9898-e51a5753f6c7")
+		(property "Reference" "DS3"
+			(at 74.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TOD-5621"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DisplayLibrary:TOD-5621"
+			(at 100.33 219.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 319.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Displays & Accessories Green 571nm .56in Dual Digit 7 Segment"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at 100.33 519.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HDSP-K511"
+			(at 100.33 619.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 100.33 719.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Unknown"
+			(at 100.33 819.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TOD-5621"
+			(at 100.33 919.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "9c753ffc-15ce-400c-b81a-94485436255a")
+		)
+		(pin "6"
+			(uuid "7bb7b4e3-1329-498a-b75a-c325adbeb662")
+		)
+		(pin "7"
+			(uuid "f0edb9dc-4704-410d-a03e-10ae7b2d7565")
+		)
+		(pin "5"
+			(uuid "520be668-7ccd-4487-9f46-0123bbce2a5c")
+		)
+		(pin "8"
+			(uuid "a93378fc-1e89-4a67-91e6-bb766aed2473")
+		)
+		(pin "3"
+			(uuid "4a6364b8-47e6-4024-93c1-6547b8f5fd94")
+		)
+		(pin "2"
+			(uuid "fd732694-6d06-4979-b164-e1a6bbb3e868")
+		)
+		(pin "4"
+			(uuid "cddab8fd-0f77-4076-9b54-9da66ac9ec29")
+		)
+		(pin "1"
+			(uuid "def5ea5b-a7f4-4f75-81f3-34530b7da86a")
+		)
+		(pin "10"
+			(uuid "e98dabaf-3942-403f-9a4e-9791246e5db2")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/d107c9ef-1c5c-4f66-a3f2-74b8c8c78102"
+					(reference "DS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Displays:TOD-5621")
+		(at 168.91 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91d5257c-6d06-4045-a4bc-8831683d185d")
+		(property "Reference" "DS5"
+			(at 198.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TOD-5621"
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DisplayLibrary:TOD-5621"
+			(at 223.52 176.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 276.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Displays & Accessories Green 571nm .56in Dual Digit 7 Segment"
+			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at 223.52 476.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HDSP-K511"
+			(at 223.52 576.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 223.52 676.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Unknown"
+			(at 223.52 776.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TOD-5621"
+			(at 223.52 876.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "de21510d-0832-4d23-ba63-6d65c2f3236a")
+		)
+		(pin "6"
+			(uuid "64cf61ff-98fa-4216-81bc-497d82c095f3")
+		)
+		(pin "7"
+			(uuid "2c09020e-5355-451b-8f12-9128ceffa91e")
+		)
+		(pin "5"
+			(uuid "df25ffc7-da3b-49fc-ad2b-e94df9ab1d2a")
+		)
+		(pin "8"
+			(uuid "e86f9d86-e849-48c9-8b47-8220ab960ee8")
+		)
+		(pin "3"
+			(uuid "736c25ef-5af2-49ea-8708-95dc6b3c000e")
+		)
+		(pin "2"
+			(uuid "78edc573-d717-4584-b80e-a7d76c86b4bf")
+		)
+		(pin "4"
+			(uuid "23460127-c57e-4c41-818f-0caebd555b83")
+		)
+		(pin "1"
+			(uuid "98d6d85b-7e74-4c51-8738-c3a322abc723")
+		)
+		(pin "10"
+			(uuid "32b41204-4ab3-4d1a-92aa-1eca3a45f49c")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/d107c9ef-1c5c-4f66-a3f2-74b8c8c78102"
+					(reference "DS5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Displays:TOD-5621")
+		(at 45.72 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2982b93-c3e7-4532-8786-85f557cd7ce2")
+		(property "Reference" "DS1"
+			(at 74.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TOD-5621"
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DisplayLibrary:TOD-5621"
+			(at 100.33 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Displays & Accessories Green 571nm .56in Dual Digit 7 Segment"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at 100.33 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-HDSP-K511"
+			(at 100.33 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 100.33 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Unknown"
+			(at 100.33 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TOD-5621"
+			(at 100.33 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a1d98959-1a4d-4e5b-a6a8-a059065c1aa9")
+		)
+		(pin "7"
+			(uuid "f635b8db-2442-405f-a271-82b650667035")
+		)
+		(pin "9"
+			(uuid "a06fb0c9-b20f-40c3-9d53-c2ad7e8bbe6d")
+		)
+		(pin "3"
+			(uuid "1239c8cc-1177-4c97-974b-cb30b559fa17")
+		)
+		(pin "4"
+			(uuid "4d8e1f1b-fa39-41d4-9134-ca80211762c7")
+		)
+		(pin "2"
+			(uuid "35a1fe0b-7fe5-4091-aa9a-68adcd25c59c")
+		)
+		(pin "10"
+			(uuid "c3e79a12-2651-4594-9de6-56935b03a6a4")
+		)
+		(pin "1"
+			(uuid "43d97ee5-6d52-4fb6-ad15-9805e4bd1e0b")
+		)
+		(pin "6"
+			(uuid "96578d52-cf56-425b-bb83-fe68153e4f35")
+		)
+		(pin "8"
+			(uuid "13f5ce9e-082d-4bb5-8345-380fb6c3b7ba")
+		)
+		(instances
+			(project "TenDigitPCB"
+				(path "/63db0e05-7bc4-4f4a-86fa-4154264c011f/d107c9ef-1c5c-4f66-a3f2-74b8c8c78102"
+					(reference "DS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
