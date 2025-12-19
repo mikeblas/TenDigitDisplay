@@ -268,6 +268,68 @@ static void start_scan_timer(void)
 }
 
 
+/*
+    Called when the WiFi interface receives an address. When called, we know my_ip[] is valid.
+
+    Here, we will display our IP address -- starting from the right digits and truncating at the left
+    if we have to. This gives a hint to the IP address at power-up.
+*/
+void wifi_address_handler(void)
+{
+    char address[50];
+    int len = snprintf(address, sizeof(address), "%d.%d.%d.%d", my_ip[0], my_ip[1], my_ip[2], my_ip[3]);
+
+    int8_t digit = 9;
+    bool over = false;
+    bool nextDot = false;
+    char *walker = address + len - 1;
+    while (digit >= 0)
+    {
+        if (over)
+        {
+            // out of characters? fill with blank segments
+            segmentValues[digit] = 0;
+            digit--;
+        }
+        else
+        {
+            if (walker < address)
+            {
+                // out of characters?
+                over = true;
+            }
+            else
+            {
+                // got a dot? then we'll want that for the next character
+                if (*walker == '.')
+                {
+                    nextDot = true;
+                    walker--;
+                }
+                else
+                {
+                    // figure out this numeral;
+                    // if it's valid, make segments of it
+                    int8_t dig = (*walker) - '0';
+                    if (dig > 9 || dig < 0)
+                        segmentValues[digit] = 0;
+                    else
+                        segmentValues[digit] = digitToSegments[dig];
+
+                    // were we working a dot?
+                    if (nextDot)
+                        set_decimal_point(digit);
+
+                    // ESP_LOGI(LOG_TAG, "Digit %d is set to 0x%2.2X", digit, segmentValues[digit]);
+                    nextDot = false;
+                    walker--;
+                    digit--;
+                }
+            }
+        }
+    }
+}
+
 
 /*
     here's our main entry point.
@@ -286,6 +348,9 @@ void app_main(void)
 
     initialize_nvs();
 
+    // set a callback to hear abou a WiFi address being assigned
+    on_wifi_address = &wifi_address_handler;
+
     wifi_connection();
 
     start_webserver();
@@ -300,5 +365,3 @@ void app_main(void)
 
     ESP_LOGI(LOG_TAG, "main is done, time since boot: %lld us", esp_timer_get_time());
 }
-
-

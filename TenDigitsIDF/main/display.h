@@ -13,6 +13,7 @@ extern MY_DRAM_ATTR uint8_t segmentValues[10];
 extern /* const */ MY_DRAM_ATTR uint8_t digitToSegments[];
 
 void set_decimal_point(uint8_t digit);
+void clear_decimal_point(uint8_t digit);
 
 void counter_to_segments(void);
 
