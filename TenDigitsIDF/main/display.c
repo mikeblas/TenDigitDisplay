@@ -169,10 +169,21 @@ static /* const */ MY_DRAM_ATTR uint8_t decodeMap[] =
 }
 
 
-
+/*
+    turn on the DP in the given digit
+*/
 void set_decimal_point(uint8_t digit)
 {
+    segmentValues[digit] |= 0x80;
+}
 
+
+/*
+    turn off the DP in the given digit
+*/
+void clear_decimal_point(uint8_t digit)
+{
+    segmentValues[digit] &= 0x80;
 }
 
 

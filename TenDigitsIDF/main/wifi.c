@@ -8,6 +8,7 @@
 
 #include "globals.h"
 
+void (*on_wifi_address)(void) = NULL;
 
 uint8_t my_ip[4];
 
@@ -51,6 +52,9 @@ static void wifi_event_handler(void *event_handler_arg, esp_event_base_t event_b
         my_ip[1] = esp_ip4_addr2(&(p->ip_info.ip));
         my_ip[2] = esp_ip4_addr3(&(p->ip_info.ip));
         my_ip[3] = esp_ip4_addr4(&(p->ip_info.ip));
+
+        if (on_wifi_address != NULL)
+            (*on_wifi_address)();
     }
 }
 
